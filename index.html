@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Verinka Webdev - создание сайтов</title>
+		<link href="favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+
+<!-- TOP -->
+
+		<div class='top container-fluid wow fadeIn'>
+			<div class='name'>Verinka Webdev</div>
+			<div class='about'>
+				Вёрстка, натяжка, интеграции с популярными CMS
+			</div>
+			<a href='#form' class='white-button gotoform'>Нанять</a>
+		</div>
+
+<!-- FRONTEND SKILLS -->
+
+		<div class='frontend container clearfix'>
+		    <div class='frontend__text wow fadeInLeft' data-wow-offset="50">
+				<div class='frontend__header'>Frontend разработка</div>
+		        <div class='frontend__description'>
+		        	Я ценю простую структуру контента, чистые шаблоны проектирования и продуманные взаимодействия
+		        </div>
+		    </div>
+		    <img src="../img/nd803.svg" class='frontend__img'>
+		    <div class='skills frontend__skills'>
+		    	<div class='skills__column'>
+		    		<span class='skills__title'>Языки:</span>
+		    		<span class='skills__list'>HTML, CSS, Less, Sass, JavaScript</span>
+		    	</div>
+		    	<div class='skills__column'>
+		    		<span class='skills__title'>Дополнительно:</span>
+		    		<span class='skills__list'>WordPress, Bootstrap, jQuery, Vue, Angular, React, BEM  </span>
+		    	</div>
+		    	<div class='skills__column'>
+		    		<span class='skills__title'>Инструменты:</span>
+		    		<span class='skills__list'>Github, Adobe XD, Figma, Avacode, webStorm</span>
+		    	</div>
+		    </div>
+		</div>
+
+<!-- BACKEND SKILLS -->
+
+		<div class='backend container'>
+			<div class='skills backend__skills'>
+			    <div class='skills__column'>
+			        <span class='skills__title'>Языки:</span>
+			        <span class='skills__list'>Php, Javascript, SQL, C++</span>
+			    </div>
+			    <div class='skills__column'>
+			        <span class='skills__title'>Дополнительно:</span>
+			        <span class='skills__list'>Laravel, VK API, Graph API</span>
+			    </div>
+			    <div class='skills__column'>
+			        <span class='skills__title'>Инструменты:</span>
+			        <span class='skills__list'>Github, phpStorm</span>
+			    </div>
+			</div>
+			<div class='backend__text wow fadeInRight' data-wow-offset="50" data-wow-delay="0.25s">
+				<div class='backend__header'>Backend разработка</div>
+			    <div class='backend__description'>
+			    	Я имею привычку кодировать вещи с нуля и наслаждаться реализацией новых идей
+			    </div>
+			</div>
+		</div>
+
+<!-- ADVANTAGES -->
+
+		<div class='advantages container clearfix line-bottom'>
+			<div class='advantage wow fadeInDown' data-wow-offset="50" data-wow-delay="0.2s"><img src='../img/wp.png'><div class='advantage-text'>Работаю с популярными CMS</div></div>
+			<div class='advantage wow fadeInDown' data-wow-offset="50" data-wow-delay="0.4s"><img src='../img/code.png'><div class='advantage-text'>Пишу чистый и валидный код</div></div>
+			<div class='advantage wow fadeInDown' data-wow-offset="50" data-wow-delay="0.6s"><img src='../img/devices.png'><div class='advantage-text'>Адаптирую Ваш сайт под любой девайс</div></div>
+			<div class='advantage wow fadeInDown' data-wow-offset="50" data-wow-delay="0.8s"><img src='../img/like.png'><div class='advantage-text'>Исключительно качественный результат</div></div>
+		</div>
+
+<!-- PREVIEWS of WORKS -->
+
+		<div class='bg-grey container-fluid'>
+			<div class='works container clearfix'>
+			    <div class='header'>НОВЫЕ РАБОТЫ</div>
+			    <div class='desc'>по которым можно оценить качество услуг создания и улучшения сайтов</div>
+
+			    <a class='work wow fadeIn' data-wow-offset="50" onclick='event.preventDefault();openmodal("work1");'>
+			    	<img src="img/preview4.jpg">
+			    	<div class='work-container'>
+			    		<div class='work-vertical'>
+			    			<div class='work-title'>Минималистичный блог</div>
+			    			<span class='work-button'>Посмотреть</span>
+			    		</div>
+			    	</div>
+			    </a>
+			    <a href='#' class='work wow fadeIn' data-wow-offset="50" data-wow-delay="0.15s" onclick='event.preventDefault();openmodal("work2");'>
+			    	<img src="img/preview3.jpg">
+			    	<div class='work-container'>
+			    		<div class='work-vertical'>
+			    			<div class='work-title'>Одностраничный магазин цветов (SPA)</div>
+			    			<span class='work-button'>
+			    				Посмотреть
+			    			</span>
+			    		</div>
+			    	</div>
+			    </a>
+			    <a class='work wow fadeIn' data-wow-offset="50" data-wow-delay="0.45s" onclick='event.preventDefault();openmodal("work4");'>
+			    	<img src="img/preview1.jpg">
+			    	<div class='work-container'>
+			    		<div class='work-vertical'>
+			    			<div class='work-title'>Лендинг для доставки суши</div>
+			    			<span class='work-button'>Посмотреть</span>
+			    		</div>
+			    	</div>
+			    </a>
+			    <div class='clearfix'>
+			    	<a  href='#form' class='blue-button gotoform'>Нанять</a>
+			    </div>
+			</div>
+		</div>
+
+<!-- CONTACT FORM -->
+
+		<div class='bg-grey container-fluid'>
+			<div class='form container' id='form'>
+				<div class='header'>ЕСТЬ ПРОЕКТ?</div>
+				<div class='desc'>самое время осуществить его вместе со специалистом</div>
+				<div class='row'>
+					<form class='col-sm-8 offset-sm-2' action="https://usebasin.com/f/a016a383d1a1" method="POST" id="my-contact-form">
+				        <input type='text' name="name" class='input-text' placeholder="Ваше имя *">
+				        <input type='text' name="contact" class='input-text' placeholder="E-mail адрес *">
+				        <textarea  name="text" class='input-textarea' placeholder="Описание проекта..."></textarea>
+				        <div class="attach">
+				        	<label>
+				        		<input type="file" name="file">
+				        		<span>Прикрепить файлы</span>
+				        	</label>
+				        </div>
+				        <span class='budget'></span>
+				        <input type='submit' class='blue-button' value='Отправить'>
+				        <div id="form-message"></div> <!-- здесь выводится сообщение по результату отправки формы-->
+				    </form>
+			    </div>
+		    </div>
+		</div>
+
+<!-- FOOTER -->
+
+		<div class='footer container-fluid'>
+			<div class='container'>
+			    <div class="row">
+			        <div class='col-sm-3'>
+				        10:00 - 19:00 МСК
+			        </div>
+			        <div class='col-sm-6'>
+				        Работаю по частичной или полной предоплате, поэтапной оплате и через "безопасную сделку" на фриланс-биржах
+			        </div>
+			        <div class='col-sm-3 footer__icons'>
+			        	<a href="//freelancehunt.com/freelancer/verinka-webdev.html" target="_blank" class="footer__freelancehunt" title="Freelancehunt биржа"></a>
+			        	<a href="//t.me/verinka-webdev" target="_blank" class="footer__telegram" title="Telegram мессенджер"></a>
+			        </div>
+			    </div>
+			</div>
+		</div>
+
+
+<!-- FULL WORKS (POPUP) -->
+
+        <div class='shadow' id='shadow'>
+            <div id='window' class='window'>
+                <div id='work1' class='window-block'>
+                	<div class='title'>
+                		<img  class="b-lazy" data-src="img/blog1.png">
+                		<img  class="b-lazy" data-src="img/blog2.png">
+                	</div>
+                </div>
+                <div id='work2' class='window-block'>
+                	<div class='title'>
+                	    <img class="b-lazy" data-src="img/flowers.png">
+                    </div>
+                </div>
+                <div id='work3' class='window-block'>
+                	<div class='title'>
+                		Этот самый сайт
+                	</div>
+                </div>
+                <div id='work4' class='window-block'>
+                	<div class='title'>
+                	    <img  class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="img/sushi.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- SCRIPTS -->
+		<script type="text/javascript" src="js/wow.min.js"></script>
+		<script>
+        	new WOW({mobile: false}).init();
+        </script>
+        <script type="text/javascript" src="js/my.js"></script>
+		<script type="text/javascript" src="js/blazy.min.js"></script>
+		<script>
+		    var bLazy = new Blazy({loadInvisible: true});
+		</script>
+		<script src="//yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript">
+				$(document).ready(function(){
+				    $('.slider').slick({
+				        infinite: true,
+				        slidesToShow: 1,
+				        slidesToScroll: 1,
+				        prevArrow: $('.arrow-left'),
+                        nextArrow: $('.arrow-right')
+				    });
+				    $('.gotoform').on('click', function(event) {
+				        event.preventDefault();
+				        var sc = $(this).attr("href"),
+				            dn = $(sc).offset().top;
+				        $('html, body').animate({scrollTop: dn}, 700);
+				    });
+				});
+		</script>
+		<script type="text/javascript">
+			var form = document.getElementById("my-contact-form");
+			var formMessage = document.getElementById("form-message");
+			form.onsubmit = function(event) {
+				event.preventDefault();
+				var formData = new FormData(form);
+				var xhr = new XMLHttpRequest();
+				xhr.open("POST", form.action, true);
+				xhr.onload = function(e) {
+					console.log(xhr);
+					var response = JSON.parse(xhr.response);
+					if (xhr.status === 200) {
+						formMessage.innerHTML = "Готово. Я свяжусь с Вами";
+					} else {
+						formMessage.innerHTML = "Ошибка: " + response.error;
+					}
+				};
+				xhr.send(formData);
+			};
+		</script>
+	</body>
+</html>
